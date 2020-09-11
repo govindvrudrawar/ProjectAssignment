@@ -15,4 +15,7 @@ public class Homepage {
 
 	@FindBy(xpath="//div/h2[text()='BIKE COMPUTERS']")
 	public WebElement bikeComputers;
+	
+	@FindBy(xpath="")
+	public WebElement mainCart;
 }

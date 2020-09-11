@@ -38,12 +38,14 @@ public class TestCases  {
 	@Test
 	public void clickOnProductCategory() {
 		//select a product e.g. Bike Trainers
+		page=new Homepage();
 		WebElement element=page.bikeTrainers;
 		element.click();
 	}
 	@Test
 	public void addtoCart() {
 		//choosing a product Kickr core by clicking on buy now
+		trainerpage=new BikeTrainers();
 		WebElement element=trainerpage.productKickrCoreBuyNow;
 		kickrcorepage.addToCartKickrCore.click();
 		
