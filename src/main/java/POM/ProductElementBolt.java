@@ -34,6 +34,9 @@ public class ProductElementBolt extends BikeComputers {
 	
 	@FindBy(xpath="//div[@class='details-qty qty product-minicart-qty']/select")
 	public WebElement dropDownQuantity;
+	
+	@FindBy(css=".top-cart-btn-checkout")
+	public WebElement checkOutbutton;
 }
 
 
